@@ -11,7 +11,7 @@ import {
 import TrashLogo from "./trash.svg";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { deleteBook } from "./actions";
+import { deleteBook } from "../actions";
 
 export default function DeleteBookButton({
   id,
